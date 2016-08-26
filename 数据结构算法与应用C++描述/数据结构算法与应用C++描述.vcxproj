@@ -22,6 +22,7 @@
     <ProjectGuid>{A6AE26B3-F785-4254-AB87-F0F9ED57AED2}</ProjectGuid>
     <RootNamespace>数据结构算法与应用C描述</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>数据结构算法与应用C++描述第1版</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -110,7 +111,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Rank.cpp" />
+    <ClCompile Include="3.4-Chain.cpp" />
+    <ClCompile Include="3.5-IndirectList.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Rank_Rearrange.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3.4-Chain.h" />
+    <ClInclude Include="3.5-IndirectList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

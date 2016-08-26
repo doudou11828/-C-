@@ -15,8 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Rank.cpp">
+    <ClCompile Include="Rank_Rearrange.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="3.4-Chain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5-IndirectList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3.4-Chain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3.5-IndirectList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
